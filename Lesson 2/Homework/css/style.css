@@ -1,0 +1,37 @@
+
+    .header {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+  }
+  
+    .border {
+        width: 120px;
+        height: 2px;
+        background-color: orange;
+        border: 0;
+        margin-bottom: 20px;
+  }
+
+    .p-header {
+        margin: 0;
+            text-align: center;
+            margin-bottom: 50px;
+        }                                                                       
+
+    .one-pic-block {
+        text-align: center;
+        width: 25%;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h2{
+        font-weight: 600;
+    }
+
+    
