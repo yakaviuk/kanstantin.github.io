@@ -70,6 +70,10 @@ nav a {
     margin-right: 48px;
 }
 
+nav a:hover {
+    color: #ff8d2d;
+}
+
 .navigation :last-child {
     margin: 0;
 }
@@ -476,6 +480,10 @@ footer p {
     color: #cccccc;
 }
 
+.one_link a:hover {
+    color: black;
+}
+
 .social_media_section {
     display: flex;
     justify-content: space-between;
@@ -506,6 +514,14 @@ footer p {
     height: 34px;
     border-bottom: 1px solid #d6d6d6;
     margin-bottom: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
 }
 
 .form_lines :last-child input {
@@ -556,10 +572,10 @@ button {
     padding: 15px 32px;
     cursor: pointer;
     border-radius: 4px;
+    border: 2px solid #ff8d2d;
 }
 
 button:hover {
     background-color: #ffffff;
     color: #ff8d2d;
-    box-shadow: 0 0 0 2px #ff8d2d;
 }
